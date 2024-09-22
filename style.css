@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center; /* Center-align the content */
+}
+
+.proj-title {
+    background-color: #8B0000; /* Dark Red Background for Heading */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.input {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px; /* Increase space between input and button */
+}
+
+.btn {
+    background-color: #00008B; /* Dark Blue Background for Button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    align-self: center; /* Center the button horizontally */
+}
+
+.btn:hover {
+    background-color: #000066; /* Darker Blue on Hover */
+}
+
+.output-section {
+    margin-top: 20px;
+}
+
+.transcript, .summary {
+    margin-bottom: 20px;
+    background-color: #f9f9f9; /* Light background for the box */
+    padding: 15px; /* Padding inside the box */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ddd; /* Light border */
+}
+
+.transcript h3, .summary h3 {
+    font-size: 18px;
+    color: #00008B; /* Dark Blue for Transcription and Summary Headings */
+    margin-bottom: 10px; /* Space between heading and content */
+}
+
+#content, #summary {
+    font-size: 16px;
+    color: #555;
+}
+
+.results h3 {
+    color: #FF0000; /* Red color for Results Headings */
+}

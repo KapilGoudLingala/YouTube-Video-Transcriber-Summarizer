@@ -1,0 +1,29 @@
+
+---
+
+### **.gitignore**
+
+This **.gitignore** file ensures that unnecessary or sensitive files are not included in your Git repository.
+
+```bash
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python specific environment files
+.env
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Google Cloud Credentials
+*.json
